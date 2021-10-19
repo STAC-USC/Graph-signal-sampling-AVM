@@ -1,0 +1,9 @@
+*~
+*.pyc
+*.swp
+*.lprof
+.ipynb_checkpoints
+*.log
+*.profile
+__pycache__/
+.idea/
