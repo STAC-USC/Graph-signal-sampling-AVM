@@ -17,6 +17,7 @@ function Samp = approx_samp_proj(proj_ene, s, proj_fnh)
             [~,m_ind] = max(proj(~Samp)); % Find maximum which is not in the current
             S_cur = find(~Samp);
             Samp(S_cur(m_ind)) = true; % Adding the new vertex
+	    n_vert = S_cur(m_ind);
 
             new_proj = proj_fnh(n_vert);
             sum_proj = sum_proj + new_proj.^2/new_proj(n_vert); % Compute new products
