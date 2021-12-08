@@ -1,8 +1,11 @@
 # Graph signal sampling
 
 We measure values of a real valued smooth signal on the specific nodes of on a network using graph signal sampling.
+
 ![](figures/samples.png)
+
 Using these known values, we can predict the signal values on the remaining nodes of a network.
+
 ![](figures/signal.png)
 
 # Using this work
