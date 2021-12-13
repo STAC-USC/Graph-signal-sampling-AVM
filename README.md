@@ -17,7 +17,7 @@ The software in this repository implements the *Approximate volume maximization*
 ### Software dependencies
 
 This repository uses the following packages. They need to be installed in order to run the software in this respository.
-- [GSPbox](https://epfl-lts2.github.io/gspbox-html/)
+- [GSPbox](https://github.com/epfl-lts2/gspbox/releases/latest)
 - [GraphSamplingBox](https://archive.softwareheritage.org/browse/directory/e27b8849b4845e050049b1ceae73520a54a7c9f5/?origin_url=https://hal.archives-ouvertes.fr/hal-02960713&revision=3dc10882e6c8e08939d75c364a99a5b4270992e3&snapshot=834da05eaba8d5fd214a05d722acc017d17826dd)
 
 Download and uncompress these packages in any directory on your computer. For this tutorial, I will assume that you placed them in ~/Downloads.
