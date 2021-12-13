@@ -18,7 +18,7 @@ For this tutorial, I assume you are using a UNIX like OS.
 
 ### Software dependencies
 
-This repository uses the following packages. They need to be installed in order to run the software in this respository.
+This repository uses the following packages. They need to be downloaded in order to run the software in this respository.
 - [GSPbox](https://github.com/epfl-lts2/gspbox/releases/latest)
 - [GraphSamplingBox](https://archive.softwareheritage.org/browse/directory/e27b8849b4845e050049b1ceae73520a54a7c9f5/?origin_url=https://hal.archives-ouvertes.fr/hal-02960713&revision=3dc10882e6c8e08939d75c364a99a5b4270992e3&snapshot=834da05eaba8d5fd214a05d722acc017d17826dd)
 
