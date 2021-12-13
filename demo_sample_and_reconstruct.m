@@ -30,8 +30,11 @@ function demo_sample_and_reconstruct(gspbox_path, random_sampling_package_path)
 
     % Plot the sampled vertices
     figure;
-    highlight_parameter.vertex_highlight = sampled_vertices;
-    gsp_plot_signal(graph, original_signal, highlight_parameter);
+    gsp_plot_signal(graph, sampled_vertices);
+    % Switching off colorbar for clarity
+    % Unfortunately setting the colobar and the bar parameters was not switching
+    % off colobar at the time of commit, so had to explicitly switch it off
+    colorbar('off');
 
     % Plot the reconstruction and the original signal
     figure;
