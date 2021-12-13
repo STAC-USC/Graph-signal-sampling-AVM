@@ -14,6 +14,8 @@ The software in this repository implements the *Approximate volume maximization*
 
 ## Download and Install
 
+For this tutorial, I assume you are using a UNIX like OS.
+
 ### Software dependencies
 
 This repository uses the following packages. They need to be installed in order to run the software in this respository.
@@ -40,6 +42,11 @@ cd Graph-signal-sampling-AVM
 ```
 
 ## Run the algorithm
+
+Start matlab.
+```
+matlab &
+```
 
 Run the algorithm using the following command.
 ```
