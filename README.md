@@ -48,7 +48,7 @@ Start matlab.
 matlab &
 ```
 
-Run the algorithm using the following command.
+Run the algorithm at the MATLAB command prompt.
 ```
 demo_sample_and_reconstruct('~/Downloads/gspbox', '~/Downloads/GraphSamplingBox');
 ```
