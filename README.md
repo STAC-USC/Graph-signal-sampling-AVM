@@ -23,7 +23,7 @@ The software in this repository implements the *Approximate volume maximization*
 
 # Support this work
 
-Your appreciation motivates me to do rigorous research and develop quality software. You can show your appreciation by starring the repository if you find this software useful. If you use this software towards your research, cite [this paper](https://arxiv.org/abs/2102.10506). Here's the bibtex citation for your convenience.
+Your appreciation motivates me to do rigorous research and develop quality software. If you find this software useful, you can show your appreciation by starring the repository. If you use this software towards your research, cite [this paper](https://arxiv.org/abs/2102.10506). Here's the bibtex citation for your convenience.
 
 ```
 @misc{jayawant2021practical,
