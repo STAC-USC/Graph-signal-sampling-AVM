@@ -21,10 +21,10 @@ The software in this repository implements the *Approximate volume maximization*
 ## View results
 If you're able to run the code succcessfully, you should be able to see results similar to these.
 
-<img src="figures/samples_from_simulation.png" alt="" width="200">
+<img src="figures/samples_from_simulation.png" alt="" width="400">
 You should be able to see the sampled vertices highlighted in red.
 
-<img src="figures/original_reconstructed_signal_superimpose.png" alt="" width="200">
+<img src="figures/original_reconstructed_signal_superimpose.png" alt="" width="400">
 You should be able to see the original and the reconstructed signal comparison in a single plot.
 
 # Support this work
