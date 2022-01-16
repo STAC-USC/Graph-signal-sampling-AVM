@@ -48,7 +48,7 @@ Start matlab.
 matlab &
 ```
 
-Run the algorithm at the MATLAB command prompt.
+Run the algorithm at the MATLAB command prompt. The demo function takes two arguments - path of the GSP toolbox, and path of the GraphSamplingBox.
 ```
 demo_sample_and_reconstruct('~/Downloads/gspbox', '~/Downloads/GraphSamplingBox');
 ```
