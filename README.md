@@ -10,7 +10,7 @@ Using these known values, we can predict the signal values on the remaining node
 
 # How to sample graph signals
 
-The software in this repository implements the *Approximate volume maximization* algorithm for graph signal sampling from [this paper](https://arxiv.org/abs/2102.10506).
+The software in this repository implements the *Approximate volume maximization* algorithm for graph signal sampling from [this paper](https://www.sciencedirect.com/science/article/pii/S0165168421004734).
 
 ## Download and Install
 
@@ -64,7 +64,7 @@ You should be able to see the original and the reconstructed signal comparison i
 
 # Support this work
 
-Your appreciation motivates me to do rigorous research and develop quality software. If you find this software useful, you can show your appreciation by starring the repository. If you use this software towards your research, cite [this paper](https://arxiv.org/abs/2102.10506). Here's the bibtex citation for your convenience.
+Your appreciation motivates me to do rigorous research and develop quality software. If you find this software useful, you can show your appreciation by starring the repository. If you use this software towards your research, cite [this paper](https://www.sciencedirect.com/science/article/pii/S0165168421004734). Here's the bibtex citation for your convenience.
 
 ```
 @article{JAYAWANT2022108436,
