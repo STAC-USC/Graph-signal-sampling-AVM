@@ -67,13 +67,18 @@ You should be able to see the original and the reconstructed signal comparison i
 Your appreciation motivates me to do rigorous research and develop quality software. If you find this software useful, you can show your appreciation by starring the repository. If you use this software towards your research, cite [this paper](https://arxiv.org/abs/2102.10506). Here's the bibtex citation for your convenience.
 
 ```
-@misc{jayawant2021practical,
-      title={Practical graph signal sampling with log-linear size scaling},
-      author={Ajinkya Jayawant and Antonio Ortega},
-      year={2021},
-      eprint={2102.10506},
-      archivePrefix={arXiv},
-      primaryClass={eess.SP}
+@article{JAYAWANT2022108436,
+title = {Practical graph signal sampling with log-linear size scaling},
+journal = {Signal Processing},
+volume = {194},
+pages = {108436},
+year = {2022},
+issn = {0165-1684},
+doi = {https://doi.org/10.1016/j.sigpro.2021.108436},
+url = {https://www.sciencedirect.com/science/article/pii/S0165168421004734},
+author = {Ajinkya Jayawant and Antonio Ortega},
+keywords = {Graph, Signal, Sampling, D-optimal, Volume, Coherence},
+abstract = {Graph signal sampling is the problem of selecting a subset of representative graph vertices whose values can be used to interpolate missing values on the remaining graph vertices. Optimizing the choice of sampling set using concepts from experiment design can help minimize the effect of noise in the input signal. While many existing sampling set selection methods are computationally intensive because they require an eigendecomposition, existing eigendecomposition-free methods are still much slower than random sampling algorithms for large graphs. In this paper, through optimizing sampling sets towards the D-optimal objective from experiment design, we propose a sampling algorithm that has complexity comparable to random sampling algorithms, while reaching accuracy similar to existing eigendecomposition-free methods for a broad range of graph types.}
 }
 ```
 
