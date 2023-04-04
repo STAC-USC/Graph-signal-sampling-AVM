@@ -3,9 +3,6 @@ function proj = vert_proj_filt(G, vert, lambda_k)
     % ideal low pass filter.
     % k: The number of low pass vectors we are trying to project on.
 
-    % Estimate the lambda max of G
-    G = gsp_estimate_lmax(G);
-
     % Approximate the filter coefficients
     poly_order = 30;
     coeffs = gsp_jackson_cheby_coeff(0, lambda_k, [0 G.lmax], poly_order);

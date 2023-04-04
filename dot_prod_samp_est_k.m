@@ -13,6 +13,9 @@ function Samp = dot_prod_samp_est_k(A, S, varargin)
         error('Third argument should either be ''p\'', ''n'' or empty.\n');
     end
 
+    % Estimate the lambda max of G
+    G = gsp_estimate_lmax(G);
+
     for i=1:length(S)
         k = S(i);
 
